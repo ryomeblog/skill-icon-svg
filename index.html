@@ -6,9 +6,7 @@
     <title>SVG Hosting</title>
 </head>
 <body>
-    <h1>SVGファイルの表示</h1>
     <div id="svg-container"></div>
-
     <script>
         const params = new URLSearchParams(window.location.search);
         const svgFile = params.get('file') || 'default.svg'; // デフォルトのSVGファイルを設定
